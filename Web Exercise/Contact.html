@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Quiver's Ice</title>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            emailjs.init("OO_G5VoiUkCO5Oayt");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home Page.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="Privacy.html">Privacy Policy</a></li>
+                <li><a href="Terms.html">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <main>
+            <section class="contact-form">
+                <h1>Contact Us</h1>
+                <form id="contactForm">
+                    
+                    <li><label for="Name">Name:</label></li>
+                    <input type="text" id="Name" Name="Name" required>
+    
+                    <li><label for="Surname">Surname:</label></li>
+                    <input type="text" id="Surname" Name="Surname" required>
+    
+                    <li><label for="Gender">Gender:</label></li>
+                    <input type="radio" id="male" name="Gender" value="Male" required> Male
+                    <input type="radio" id="female" name="Gender" value="Female" required> Female
+                    <input type="radio" id="other" name="Gender" value="Other" required> Other
+    
+                    <li><label for="Race">Race:</label></li>
+                    <select id="Race" name="Race" required>
+                        <option value="African">African</option>
+                        <option value="White">White</option>
+                        <option value="Coloured">Coloured</option>
+                        <option value="Indian">Indian</option>
+                        <option value="Other">Other</option>
+                    </select>
+    
+                    <li><label for="Email">Email:</label></li>
+                    <input type="Email" id="Email" name="Email" required>
+    
+                    <li><label for="Phone">Phone Number:</label></li>
+                    <input type="tel" id="Phone" name="Phone" pattern="^(\+27|0)[6-8][0-9]{8}$" required placeholder="+27 or 0 followed by 9 digits"></li>
+    
+                    <li><label for="Address">Address:</label></li>
+                    <textarea id="Address" name="Address" required></textarea>
+    
+                    <li><button type="Submit">Submit</button></li>
+                    
+                </form>
+
+                
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2025 Quiver's Ice. All Rights Reserved.</p>
+        </footer>
+    
+        
+        <script src="Form Handler.js"></script>
+    </body>
+    </html>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <p>We're here to help you with all your jewelry needs. Whether you have a question about our products, need assistance with an order, or want to schedule a consultation, feel free to reach out to us using the information below.</p>
+
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> support@quiversice.com</p>
+            <p><strong>Phone:</strong> 011 582 4659
